@@ -7,7 +7,8 @@ using std::string;
 TEST(GildedRoseTest, Foo) {
     //Arrange
     vector<Item> items;
-    items.push_back(Item("Foo", 0, 0));
+    //items.push_back(Item("Foo", 0, 0));
+    items.emplace_back("Foo", 0, 0);
     GildedRose app(items);
 
     //Act
