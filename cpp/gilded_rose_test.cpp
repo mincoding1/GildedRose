@@ -1,6 +1,9 @@
 #include "gmock/gmock.h"
 #include "gilded_rose.h"
 
+using std::vector;
+using std::string;
+
 TEST(GildedRoseTest, Foo) {
     //Arrange
     vector<Item> items;
@@ -11,5 +14,6 @@ TEST(GildedRoseTest, Foo) {
     app.updateQuality();
 
     //Arrange
-    EXPECT_EQ("fixme", app.items[0].name); //코드 이해 후, 수정 필요
+    EXPECT_EQ("Foo", app.items[0].name); 
 }
+
