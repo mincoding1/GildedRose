@@ -1,5 +1,5 @@
-#include <gtest/gtest.h>
-#include "GildedRose.h"
+#include <gmock/gmock.h>
+#include "gilded_rose.h"
 
 TEST(GildedRoseTest, Foo) {
     vector<Item> items;
