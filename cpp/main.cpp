@@ -21,7 +21,7 @@ int main() {
 
 int main()
 {
-    vector<Item> items;
+    std::vector<Item> items;
 
     items.push_back({ "+5 Dexterity Vest", 10, 20 });
     items.push_back({ "Aged Brie", 2, 0 });
