@@ -1,5 +1,8 @@
 #include "gilded_rose.h"
 
+using std::vector;
+using std::string;
+
 GildedRose::GildedRose(vector<Item>& items) : items(items) 
 {
 }
